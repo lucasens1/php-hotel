@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ms_container {
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ms_card{
+    width: 15%;
+    padding: 20px;
+    height: 250px;
+    border: 1px solid rgb(233, 48, 48);
+    background-color: coral;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
